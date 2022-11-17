@@ -1,0 +1,120 @@
+.body{
+  padding: 0;
+  margin: 0;}
+.interface{
+  position: relative;
+  /*display: grid;
+  grid-template: repeat(7,100px);*/
+}
+.box{
+  height: 35vw ;
+  width: 92vw;
+  margin: 0.5vw;
+  border-radius: 0.5em ;
+  padding: 1%;
+  background-color: rgb(5, 124, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.circle {
+  background-color: rgba(238, 228, 228, 0.2);
+  border-radius: 50%;
+  width:8px;
+  height: 8px;
+  padding: 5% ;
+  position: fixed
+}
+
+.droitecentre{
+  right: 180px;
+  bottom: 710px;
+}
+.gauchecentre{
+  right: 210px;
+  bottom: 710px;
+}
+.hautcentre{
+  right: 195px;
+  bottom: 730px;
+}
+
+.h2  {
+  margin-left: 20px;
+  text-align: left;
+  line-height: 3em;
+  font-size: 1.5em ;
+  font-style: black ;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;    
+}
+@media only screen and (min-width: 599px) {
+ body {background-color: red;}
+  .ele {
+    width: 20em;
+  }
+} 
+
+.p{
+  margin-left: 20px;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1em;    
+    
+}
+.ul {
+  line-height: 3;
+  padding: 0;
+  width: 100%; 
+}
+ 
+.li:last-child a {
+  margin-right: 0;
+}
+li {
+  display: inline;
+}
+a:link, a:visited, a:focus {
+  background: rgb(17, 159, 215);
+}
+
+a {
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  width: 130px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  font-style: bold;
+  border-radius: 0.2em;
+  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

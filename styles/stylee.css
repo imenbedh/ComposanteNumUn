@@ -1,0 +1,175 @@
+.body{
+  padding: 0;
+  margin: 0;
+ 
+}
+.interface{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.box{
+  height: 35vw ;
+  width: 92vw;
+  margin: 0.5vw;
+  border-radius: 0.5em ;
+  padding: 1%;
+  background-color: rgb(5, 124, 235);
+}  
+
+.circle {
+  background-color: rgba(164, 11, 11, 0.2);
+  border-radius: 50%;
+  width:8px;
+  height: 8px;
+  padding: 5% ;
+}
+.fixed{
+  position: fixed;
+}
+.droitecentre{
+  right: 145px;
+  bottom: 565px;
+}
+.gauchecentre{
+  right: 170px;
+  bottom: 565px;
+}
+.hautcentre{
+  right: 157px;
+  bottom: 570px;
+}
+
+.h2  {
+  margin-left: 20px;
+  text-align: left;
+  line-height: 3em;
+  font-size: 1.5em ;
+  font-style: black  ;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;    
+}
+
+.p{
+  margin-left: 20px;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1em;    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.circle {
+  background-color: rgba(237, 27, 27, 0.2);
+  border-radius: 50%;
+  width:10px;
+  height: 10px;
+  padding: 5% ;
+}
+
+.box{
+  height: 35vw ;
+  width: 93vw;
+  margin: 0.5vw;
+  border-radius: 0.5em ;
+  padding: 1%;
+  background-color: rgb(5, 124, 235);
+}   
+.h2  {
+  margin-left: 20px;
+  text-align: left;
+  line-height: 3em;
+  font-size: 1.5em ;
+  font-style: black  ;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;    
+}
+
+.p{
+  margin-left: 20px;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1em;    
+    
+}
+.ul {
+  line-height: 3;
+  padding: 0;
+  width: 100%; 
+}
+ 
+.li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: rgb(17, 159, 215);
+}
+.fixed{
+  position: fixed;
+}
+.droitecentre{
+  right: 41vw;
+  bottom: 13vw;
+}
+.gauchecentre{
+  right: 50vw;
+  bottom: 13vw;
+}
+.hautcentre{
+  right: 45vw;
+  bottom: 17vw;
+}
+
+a {
+  margin-left: 10px;
+  margin-top: 20px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 9em;
+  margin-right: 0.1%;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  font-style: bold;
+  border-radius: 0.2em;
+  
+}  
+li {
+  display: inline;
+}  
+  
+.body{
+  margin: 0;
+  padding: 0;
+
+}
