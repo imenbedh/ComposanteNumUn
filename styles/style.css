@@ -1,95 +1,57 @@
-.body{
-  padding: 0;
-  margin: 0;}
-.interface{
-  position: relative;
-  /*display: grid;
-  grid-template: repeat(7,100px);*/
+body{
+  margin: 2%;
+ 
+  padding: 2%;
+  width: 359px;
+  height: 600px;
+  position: absolute;
+  
+ 
+}
+.continue{
+  width:0.9em;
+  height: 0.9em;
+  padding: 0.1em;
+  margin: 0.1em;
+  position: absolute;
+ 
+  transform:translate(-50%, -50%);
+  display: grid;
+  grid-template: repeat(2,100px)repeat(2,200px)/repeat(4,70px);
+  
+
+}
+
+.image{
+  grid-area: 1 / 1 / 3 / 5;
+  background: url(../images/OIP.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+
 }
 .box{
-  height: 35vw ;
-  width: 92vw;
-  margin: 0.5vw;
-  border-radius: 0.5em ;
-  padding: 1%;
-  background-color: rgb(5, 124, 235);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}  
-.circle {
-  background-color: rgba(238, 228, 228, 0.2);
-  border-radius: 50%;
-  width:8px;
-  height: 8px;
-  padding: 5% ;
-  position: fixed
+  grid-area: 3 / 1 / 4 / 5;
 }
 
-.droitecentre{
-  right: 180px;
-  bottom: 710px;
-}
-.gauchecentre{
-  right: 210px;
-  bottom: 710px;
-}
-.hautcentre{
-  right: 195px;
-  bottom: 730px;
-}
-
-.h2  {
-  margin-left: 20px;
-  text-align: left;
-  line-height: 3em;
-  font-size: 1.5em ;
-  font-style: black ;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 700;    
-}
-@media only screen and (min-width: 599px) {
- body {background-color: red;}
-  .ele {
-    width: 20em;
-  }
-} 
-
-.p{
-  margin-left: 20px;
-  text-align: left;
-  line-height: 1.4;
-  font-size: 1em;    
-    
-}
-.ul {
-  line-height: 3;
-  padding: 0;
-  width: 100%; 
-}
- 
-.li:last-child a {
-  margin-right: 0;
-}
-li {
-  display: inline;
-}
-a:link, a:visited, a:focus {
-  background: rgb(17, 159, 215);
+.liste{
+  grid-area: 4 / 1 / 6 / 5;
 }
 
 a {
   margin-left: 10px;
-  margin-top: 20px;
+  padding: 10px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  outline: none;
   text-decoration: none;
-  display: inline-block;
-  width: 130px;
-  margin-right: 20px;
-  text-align: center;
   line-height: 3;
+  text-align: center;
   color: white;
   font-style: bold;
+  
+  width: 9em;
   border-radius: 0.2em;
+  background: rgb(17, 159, 215);
   
 }  
 
@@ -118,3 +80,160 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*.box{
+  width: 360px;
+  height: 520px;
+  position: absolute;
+  margin: 13px ;
+  padding: 20px;
+  background: white;
+  display: grid;
+  grid-template:repeat(4, 130px)/repeat(3, 120px) ;
+  
+}
+
+image{
+  grid-area:1/1/2/3 ;
+  background-image: url(images/fraise.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  
+  
+} 
+.continue{
+  grid-area: 3/1/4/3;
+
+}
+
+
+.h2  {
+  
+  text-align: left;
+  line-height: 3em;
+  font-size: 1.5em ;
+  font-style: black;
+  font-weight: 700;    
+}
+
+.p{
+  
+  
+  line-height: 1.4;
+  font-size: 1em;    
+    
+}
+
+a {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 0.1%;
+  outline: none;
+  text-decoration: none;
+  line-height: 3;
+  text-align: center;
+  color: white;
+  font-style: bold;
+  
+  width: 9em;
+  border-radius: 0.2em;
+  background: rgb(17, 159, 215);
+  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.box{
+  height: 35vw ;
+  width: 97vw;
+  margin: 0.5vw;
+  border-radius: 0.5em ;
+  padding: 1%;
+  background-color: rgb(5, 124, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.continer {
+  
+  height: 70% ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circles {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+}
+
+.circle {
+  background-color: rgba(233, 13, 13, 0.5);
+  position: absolute;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.circle1 {
+  left: 15px;
+  top: 15px;
+}
+
+.circle2 {
+  left: -15px;
+  top: 15px;
+}
