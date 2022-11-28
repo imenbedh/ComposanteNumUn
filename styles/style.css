@@ -24,13 +24,13 @@ body{
 /*********************************partie superieur*********************************/
 .boxspeci {
   background-color: rgb(5, 124, 235);
-  height: 300px;
+  border-radius: 5px 5px 0px 0px;
+  height: 400px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .circles {
   position: relative;
   height: 20px;
@@ -38,6 +38,7 @@ body{
 }
 .circle {
   background-color: rgba(26, 174, 228, 0.5);
+  background-blend-mode: screen ;
   position: absolute;
   border-radius: 50%;
   height: 50px;
@@ -78,7 +79,7 @@ a {
   border-radius: 5px;
   background: rgb(17, 159, 215);
   box-shadow: 0 10px 10px rgba(158, 149, 149, 0.4);
-  padding: 15px 80px;
+  padding: 5px 80px;
   margin-top: 12px;
   display: block;
 }  
@@ -88,14 +89,15 @@ a {
     margin-left: 30px;
   }
   .boxgen{
-  margin: 30px;
+  margin: 20px 40px;
   margin-bottom: 0px;
   }
+ 
   li{ display: inline;
     margin-right: 4px;}
   a {
     display: inline-block;
-    padding: 10px 20px; 
+    padding: 5px 30px; 
     margin-left: 30px;
     width: 150px;
   }
