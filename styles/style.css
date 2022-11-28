@@ -5,10 +5,10 @@ body{
  margin: 0;
  padding: 0;
 }
-.p, .h2, .ul{
+.p, h2, .ul{
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 0px;
+  padding: 0;
   text-align: left;
   font-size: 1rem;
   font-style:unset;
@@ -25,7 +25,7 @@ body{
 .boxspeci {
   background-color: rgb(5, 124, 235);
   border-radius: 5px 5px 0px 0px;
-  height: 400px;
+  height: 350px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -69,7 +69,6 @@ li{
   display: block;
 }
 a {
-  line-height: 3;
   font-size: 1rem;
   font-weight: bold;
   color: white;
@@ -79,31 +78,32 @@ a {
   border-radius: 5px;
   background: rgb(17, 159, 215);
   box-shadow: 0 10px 10px rgba(158, 149, 149, 0.4);
-  padding: 5px 80px;
+  padding: 15px 80px;
   margin-top: 12px;
   display: block;
 }  
 /**********************responsive*****************/
 @media only screen and (min-width: 600px) {
-  .h2, .p{
-    margin-left: 30px;
+  h2, p{
+    margin-left: 50px;
   }
   .boxgen{
-  margin: 20px 40px;
+  margin: 30px  40px;
   margin-bottom: 0px;
   }
- 
+ ul{
+  padding-left:50px ;
+ }
   li{ display: inline;
     margin-right: 4px;}
   a {
     display: inline-block;
-    padding: 5px 30px; 
-    margin-left: 30px;
+    padding: 10px 25px;
     width: 150px;
   }
 }
 @media screen and (max-width: 359px) {
-  body {
+  .box, .boxgen {
     display: none;
   }
 }
