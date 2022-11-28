@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box ;
+}
+body{
+ margin: 0;
+ padding: 0;
+}
+.p, .h2, .ul{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  text-align: left;
+  font-size: 1rem;
+  font-style:unset;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+.h2{
+  font-size:1.1rem;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 0px;
+}
+/*********************************partie superieur*********************************/
+.boxspeci {
+  background-color: rgb(5, 124, 235);
+  border-radius: 5px 5px 0px 0px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circles {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+.circle {
+  background-color: rgba(26, 174, 228, 0.5);
+  background-blend-mode: screen ;
+  position: absolute;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  left: 0px;
+  top: -10px;
+}
+.circle1 {
+  left: 19px;
+  top: 20px;
+}
+.circle2 {
+  left: -19px;
+  top: 20px;
+}
+/*******************************titre , paragraphe et liste******************************/
+.box{
+  padding: 10px;
+  margin: 10px;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+li{
+  list-style-type: none;
+  display: block;
+}
+a {
+  line-height: 3;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(17, 159, 215);
+  box-shadow: 0 10px 10px rgba(158, 149, 149, 0.4);
+  padding: 5px 80px;
+  margin-top: 12px;
+  display: block;
+}  
+/**********************responsive*****************/
+@media only screen and (min-width: 600px) {
+  .h2, .p{
+    margin-left: 30px;
+  }
+  .boxgen{
+  margin: 20px 40px;
+  margin-bottom: 0px;
+  }
+ 
+  li{ display: inline;
+    margin-right: 4px;}
+  a {
+    display: inline-block;
+    padding: 5px 30px; 
+    margin-left: 30px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 359px) {
+  body {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.box{
+  width: 360px;
+  height: 520px;
+  position: absolute;
+  margin: 13px ;
+  padding: 20px;
+  background: white;
+  display: grid;
+  grid-template:repeat(4, 130px)/repeat(3, 120px) ;
+  
+}
+
+image{
+  grid-area:1/1/2/3 ;
+  background-image: url(images/fraise.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  
+  
+} 
+.continue{
+  grid-area: 3/1/4/3;
+
+}
+
+
+.h2  {
+  
+  text-align: left;
+  line-height: 3em;
+  font-size: 1.5em ;
+  font-style: black;
+  font-weight: 700;    
+}
+
+.p{
+  
+  
+  line-height: 1.4;
+  font-size: 1em;    
+    
+}
+
+a {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 0.1%;
+  outline: none;
+  text-decoration: none;
+  line-height: 3;
+  text-align: center;
+  color: white;
+  font-style: bold;
+  
+  width: 9em;
+  border-radius: 0.2em;
+  background: rgb(17, 159, 215);
+  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.box{
+  height: 35vw ;
+  width: 97vw;
+  margin: 0.5vw;
+  border-radius: 0.5em ;
+  padding: 1%;
+  background-color: rgb(5, 124, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.continer {
+  
+  height: 70% ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circles {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+}
+
+.circle {
+  background-color: rgba(233, 13, 13, 0.5);
+  position: absolute;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.circle1 {
+  left: 15px;
+  top: 15px;
+}
+
+.circle2 {
+  left: -15px;
+  top: 15px;
+}
