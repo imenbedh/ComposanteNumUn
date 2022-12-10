@@ -4,10 +4,12 @@
 body{
  margin: 0;
  padding: 0;
+ background-color:white;
+ width: 100%;
 }
 .p, h2, .ul{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 0;
   text-align: left;
   font-size: 1rem;
@@ -18,14 +20,46 @@ body{
 .h2{
   font-size:1.1rem;
   font-weight: bold;
-  margin: 10px;
+  margin: 5px;
   margin-left: 0px;
 }
-/*********************************partie superieur*********************************/
+.grandpartie{
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.partie1 {
+  width: 100%;
+  margin: 30px 0;
+  
+}
+.partie2{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.titre{
+  margin: 20px;
+  text-align: center;
+}
+.threecards{
+  margin: 0 200px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.threecards .body0{
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(158, 149, 149, 0.4);
+}
+
+/*********************************card*********************************/
 .boxspeci {
   background-color: rgb(5, 124, 235);
   border-radius: 5px 5px 0px 0px;
-  height: 350px;
+  height: 200px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -37,7 +71,7 @@ body{
   width: 20px;
 }
 .circle {
-  background-color: rgba(26, 174, 228, 0.5);
+  background-color: rgba(26, 228, 124, 0.5);
   background-blend-mode: screen ;
   position: absolute;
   border-radius: 50%;
@@ -54,7 +88,7 @@ body{
   left: -19px;
   top: 20px;
 }
-/*******************************titre , paragraphe et liste******************************/
+/*******************************titre , paragraphe et liste de la carte******************************/
 .box{
   padding: 10px;
   margin: 10px;
@@ -75,19 +109,61 @@ a {
   text-decoration: none;
   justify-content: center;
   text-align: center;
+  
   border-radius: 5px;
   background: rgb(17, 159, 215);
   box-shadow: 0 10px 10px rgba(158, 149, 149, 0.4);
-  padding: 15px 80px;
+  padding: 5px 80px;
   margin-top: 12px;
   display: block;
 }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**********************responsive*****************/
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {
   h2, p{
     margin-left: 50px;
   }
-  .boxgen{
+  .boxgen2{
   margin: 30px  40px;
   margin-bottom: 0px;
   }
@@ -103,10 +179,10 @@ a {
   }
 }
 @media screen and (max-width: 359px) {
-  .box, .boxgen {
+  .box, .boxgen2 {
     display: none;
   }
-}
+}*/
 
 
 
